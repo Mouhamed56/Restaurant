@@ -3,76 +3,139 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu de Delicious Bites</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Menu de Délicieuses Bouchées</title>
+
+  <style>
+    /* Style général */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* En-tête */
+    header {
+      background-color: #e67e22; /* orange */
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    /* Sections */
+    section {
+      padding: 20px;
+      margin: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    /* Titres */
+    h2 {
+      color: #e67e22;
+      border-bottom: 2px solid #e67e22;
+      padding-bottom: 5px;
+    }
+
+    /* Liste des plats */
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 15px;
+    }
+
+    strong {
+      color: #2c3e50;
+      font-size: 18px;
+    }
+
+    /* Lien */
+    a {
+      color: #e67e22;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Pied de page */
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #2c3e50;
+      color: white;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <h1>🍴 Delicious Bites – Menu du Chef</h1>
+    <h1>Menu de Délicieuses Bouchées</h1>
   </header>
 
-  <main>
-    <!-- Section Entrées -->
-    <section class="menu-section">
-      <h2>Entrées</h2>
-      <ul>
-        <li>
-          <strong>Salade Caprese</strong>
-          <p>Tomates fraîches, mozzarella et basilic arrosés d’un glaçage balsamique.</p>
-        </li>
-        <li>
-          <strong>Bruschetta au basilic</strong>
-          <p>Pain grillé garni de tomates concassées, ail et huile d’olive extra vierge.</p>
-        </li>
-        <li>
-          <strong>Soupe à l’oignon gratinée</strong>
-          <p>Soupe traditionnelle française servie avec croûtons et fromage fondu.</p>
-        </li>
-      </ul>
-    </section>
+  <section>
+    <h2>Entrées</h2>
+    <ul>
+      <li>
+        <strong>Salade Caprese</strong>
+        <p>Tomates fraîches, mozzarella et basilic arrosés de glaçage balsamique.</p>
+      </li>
+      <li>
+        <strong>Bruschetta</strong>
+        <p>Pain grillé garni de tomates, ail et huile d'olive.</p>
+      </li>
+      <li>
+        <strong>Soupe du Jour</strong>
+        <p>Préparée chaque matin avec des ingrédients frais du marché.</p>
+      </li>
+    </ul>
+  </section>
 
-    <!-- Section Plats principaux -->
-    <section class="menu-section">
-      <h2>Plats principaux</h2>
-      <ul>
-        <li>
-          <strong>Saumon grillé</strong>
-          <p>Filet de saumon assaisonné et grillé à la perfection, servi avec une sauce au beurre citronné.</p>
-        </li>
-        <li>
-          <strong>Poulet au curry</strong>
-          <p>Morceaux de poulet mijotés dans une sauce au lait de coco et épices douces.</p>
-        </li>
-        <li>
-          <strong>Pâtes à la carbonara</strong>
-          <p>Spaghetti, œufs, parmesan, lardons et crème fraîche pour une saveur italienne authentique.</p>
-        </li>
-      </ul>
-    </section>
+  <section>
+    <h2>Plats Principaux</h2>
+    <ul>
+      <li>
+        <strong>Saumon Grillé</strong>
+        <p>Filet de saumon assaisonné et grillé à la perfection, servi avec une sauce au beurre citronné.</p>
+      </li>
+      <li>
+        <strong>Poulet au Curry</strong>
+        <p>Blanc de poulet mijoté dans une sauce curry coco parfumée.</p>
+      </li>
+      <li>
+        <strong>Pâtes Carbonara</strong>
+        <p>Crème onctueuse, lardons et parmesan sur des spaghettis al dente.</p>
+      </li>
+    </ul>
+  </section>
 
-    <!-- Section Desserts -->
-    <section class="menu-section">
-      <h2>Desserts</h2>
-      <ul>
-        <li>
-          <strong>Fondue au chocolat</strong>
-          <p>Assortiment de fruits et guimauves servis avec une riche fondue au chocolat noir.</p>
-        </li>
-        <li>
-          <strong>Tiramisu maison</strong>
-          <p>Délicieux dessert italien à base de mascarpone, café et cacao en poudre.</p>
-        </li>
-        <li>
-          <strong>Tarte aux pommes caramélisées</strong>
-          <p>Pâte croustillante garnie de pommes fondantes et nappée d’un caramel doré.</p>
-        </li>
-      </ul>
-    </section>
-  </main>
+  <section>
+    <h2>Desserts</h2>
+    <ul>
+      <li>
+        <strong>Fondue au Chocolat</strong>
+        <p>Assortiment de fruits et guimauves servis avec une riche fondue au chocolat.</p>
+      </li>
+      <li>
+        <strong>Tiramisu</strong>
+        <p>Le célèbre dessert italien, léger et crémeux à souhait.</p>
+      </li>
+      <li>
+        <strong>Crème Brûlée</strong>
+        <p>Crème vanillée à la surface caramélisée au chalumeau.</p>
+      </li>
+    </ul>
+  </section>
 
   <footer>
-    <p><a href="contact.html">📞 Contactez-nous pour réserver</a></p>
-    <p class="copy">&copy; 2025 Delicious Bites – Tous droits réservés</p>
+    <p><a href="contact.html">Contactez-nous pour réserver</a></p>
   </footer>
+
 </body>
 </html>
